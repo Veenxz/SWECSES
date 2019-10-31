@@ -6,19 +6,19 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1500</width>
+    <width>1320</width>
     <height>700</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>0</width>
+    <width>1320</width>
     <height>700</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>1500</width>
+    <width>1320</width>
     <height>700</height>
    </size>
   </property>
@@ -29,7 +29,7 @@
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>1290</x>
+      <x>1160</x>
       <y>10</y>
       <width>151</width>
       <height>591</height>
@@ -73,7 +73,7 @@ p, li { white-space: pre-wrap; }
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>1211</width>
+      <width>1121</width>
       <height>101</height>
      </rect>
     </property>
@@ -83,7 +83,7 @@ p, li { white-space: pre-wrap; }
     <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
-       <x>780</x>
+       <x>690</x>
        <y>10</y>
        <width>410</width>
        <height>32</height>
@@ -412,7 +412,7 @@ p, li { white-space: pre-wrap; }
      <rect>
       <x>10</x>
       <y>230</y>
-      <width>1211</width>
+      <width>1121</width>
       <height>91</height>
      </rect>
     </property>
@@ -422,7 +422,7 @@ p, li { white-space: pre-wrap; }
     <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
-       <x>780</x>
+       <x>690</x>
        <y>20</y>
        <width>410</width>
        <height>32</height>
@@ -830,7 +830,7 @@ p, li { white-space: pre-wrap; }
      <rect>
       <x>10</x>
       <y>330</y>
-      <width>1211</width>
+      <width>1121</width>
       <height>121</height>
      </rect>
     </property>
@@ -840,7 +840,7 @@ p, li { white-space: pre-wrap; }
     <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
-       <x>780</x>
+       <x>690</x>
        <y>20</y>
        <width>410</width>
        <height>32</height>
@@ -1417,7 +1417,7 @@ p, li { white-space: pre-wrap; }
      <rect>
       <x>10</x>
       <y>470</y>
-      <width>1211</width>
+      <width>1121</width>
       <height>101</height>
      </rect>
     </property>
@@ -1433,7 +1433,7 @@ p, li { white-space: pre-wrap; }
     <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
-       <x>780</x>
+       <x>690</x>
        <y>10</y>
        <width>414</width>
        <height>74</height>
@@ -1900,7 +1900,7 @@ p, li { white-space: pre-wrap; }
      <rect>
       <x>10</x>
       <y>120</y>
-      <width>1211</width>
+      <width>1121</width>
       <height>101</height>
      </rect>
     </property>
@@ -2309,8 +2309,8 @@ p, li { white-space: pre-wrap; }
     <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
-       <x>780</x>
-       <y>10</y>
+       <x>690</x>
+       <y>20</y>
        <width>410</width>
        <height>32</height>
       </rect>
@@ -2370,8 +2370,8 @@ p, li { white-space: pre-wrap; }
     <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
-       <x>780</x>
-       <y>50</y>
+       <x>690</x>
+       <y>60</y>
        <width>410</width>
        <height>32</height>
       </rect>

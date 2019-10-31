@@ -212,14 +212,14 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
-        MainWindow->resize(1500, 700);
-        MainWindow->setMinimumSize(QSize(0, 700));
-        MainWindow->setMaximumSize(QSize(1500, 700));
+        MainWindow->resize(1320, 700);
+        MainWindow->setMinimumSize(QSize(1320, 700));
+        MainWindow->setMaximumSize(QSize(1320, 700));
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         groupBox = new QGroupBox(centralWidget);
         groupBox->setObjectName(QStringLiteral("groupBox"));
-        groupBox->setGeometry(QRect(1290, 10, 151, 591));
+        groupBox->setGeometry(QRect(1160, 10, 151, 591));
         Wf_result_3 = new QTextBrowser(groupBox);
         Wf_result_3->setObjectName(QStringLiteral("Wf_result_3"));
         Wf_result_3->setGeometry(QRect(10, 20, 130, 560));
@@ -227,10 +227,10 @@ public:
         Wf_result_3->setMaximumSize(QSize(130, 560));
         groupBox_2 = new QGroupBox(centralWidget);
         groupBox_2->setObjectName(QStringLiteral("groupBox_2"));
-        groupBox_2->setGeometry(QRect(10, 10, 1211, 101));
+        groupBox_2->setGeometry(QRect(10, 10, 1121, 101));
         layoutWidget = new QWidget(groupBox_2);
         layoutWidget->setObjectName(QStringLiteral("layoutWidget"));
-        layoutWidget->setGeometry(QRect(780, 10, 410, 32));
+        layoutWidget->setGeometry(QRect(690, 10, 410, 32));
         horizontalLayout_6 = new QHBoxLayout(layoutWidget);
         horizontalLayout_6->setSpacing(6);
         horizontalLayout_6->setContentsMargins(11, 11, 11, 11);
@@ -385,10 +385,10 @@ public:
 
         groupBox_3 = new QGroupBox(centralWidget);
         groupBox_3->setObjectName(QStringLiteral("groupBox_3"));
-        groupBox_3->setGeometry(QRect(10, 230, 1211, 91));
+        groupBox_3->setGeometry(QRect(10, 230, 1121, 91));
         layoutWidget2 = new QWidget(groupBox_3);
         layoutWidget2->setObjectName(QStringLiteral("layoutWidget2"));
-        layoutWidget2->setGeometry(QRect(780, 20, 410, 32));
+        layoutWidget2->setGeometry(QRect(690, 20, 410, 32));
         horizontalLayout_20 = new QHBoxLayout(layoutWidget2);
         horizontalLayout_20->setSpacing(6);
         horizontalLayout_20->setContentsMargins(11, 11, 11, 11);
@@ -575,10 +575,10 @@ public:
 
         groupBox_4 = new QGroupBox(centralWidget);
         groupBox_4->setObjectName(QStringLiteral("groupBox_4"));
-        groupBox_4->setGeometry(QRect(10, 330, 1211, 121));
+        groupBox_4->setGeometry(QRect(10, 330, 1121, 121));
         layoutWidget4 = new QWidget(groupBox_4);
         layoutWidget4->setObjectName(QStringLiteral("layoutWidget4"));
-        layoutWidget4->setGeometry(QRect(780, 20, 410, 32));
+        layoutWidget4->setGeometry(QRect(690, 20, 410, 32));
         horizontalLayout_29 = new QHBoxLayout(layoutWidget4);
         horizontalLayout_29->setSpacing(6);
         horizontalLayout_29->setContentsMargins(11, 11, 11, 11);
@@ -852,11 +852,11 @@ public:
 
         groupBox_5 = new QGroupBox(centralWidget);
         groupBox_5->setObjectName(QStringLiteral("groupBox_5"));
-        groupBox_5->setGeometry(QRect(10, 470, 1211, 101));
+        groupBox_5->setGeometry(QRect(10, 470, 1121, 101));
         groupBox_5->setMaximumSize(QSize(100000, 10000));
         layoutWidget6 = new QWidget(groupBox_5);
         layoutWidget6->setObjectName(QStringLiteral("layoutWidget6"));
-        layoutWidget6->setGeometry(QRect(780, 10, 414, 74));
+        layoutWidget6->setGeometry(QRect(690, 10, 414, 74));
         horizontalLayout_36 = new QHBoxLayout(layoutWidget6);
         horizontalLayout_36->setSpacing(6);
         horizontalLayout_36->setContentsMargins(11, 11, 11, 11);
@@ -1074,7 +1074,7 @@ public:
 
         groupBox_6 = new QGroupBox(centralWidget);
         groupBox_6->setObjectName(QStringLiteral("groupBox_6"));
-        groupBox_6->setGeometry(QRect(10, 120, 1211, 101));
+        groupBox_6->setGeometry(QRect(10, 120, 1121, 101));
         layoutWidget9 = new QWidget(groupBox_6);
         layoutWidget9->setObjectName(QStringLiteral("layoutWidget9"));
         layoutWidget9->setGeometry(QRect(10, 20, 631, 52));
@@ -1259,7 +1259,7 @@ public:
 
         layoutWidget10 = new QWidget(groupBox_6);
         layoutWidget10->setObjectName(QStringLiteral("layoutWidget10"));
-        layoutWidget10->setGeometry(QRect(780, 10, 410, 32));
+        layoutWidget10->setGeometry(QRect(690, 20, 410, 32));
         horizontalLayout_10 = new QHBoxLayout(layoutWidget10);
         horizontalLayout_10->setSpacing(6);
         horizontalLayout_10->setContentsMargins(11, 11, 11, 11);
@@ -1291,7 +1291,7 @@ public:
 
         layoutWidget11 = new QWidget(groupBox_6);
         layoutWidget11->setObjectName(QStringLiteral("layoutWidget11"));
-        layoutWidget11->setGeometry(QRect(780, 50, 410, 32));
+        layoutWidget11->setGeometry(QRect(690, 60, 410, 32));
         horizontalLayout_14 = new QHBoxLayout(layoutWidget11);
         horizontalLayout_14->setSpacing(6);
         horizontalLayout_14->setContentsMargins(11, 11, 11, 11);
