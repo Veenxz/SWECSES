@@ -476,11 +476,19 @@ release/mainwindow.o: mainwindow.cpp mainwindow.h \
 		../../Software/Qtcreater/5.8/mingw53_32/include/QtWidgets/qabstractspinbox.h \
 		../../Software/Qtcreater/5.8/mingw53_32/include/QtGui/qvalidator.h \
 		../../Software/Qtcreater/5.8/mingw53_32/include/QtCore/qregularexpression.h \
+		../../Software/Qtcreater/5.8/mingw53_32/include/QtWidgets/QGridLayout \
+		../../Software/Qtcreater/5.8/mingw53_32/include/QtWidgets/qgridlayout.h \
+		../../Software/Qtcreater/5.8/mingw53_32/include/QtWidgets/qlayout.h \
+		../../Software/Qtcreater/5.8/mingw53_32/include/QtWidgets/qlayoutitem.h \
+		../../Software/Qtcreater/5.8/mingw53_32/include/QtWidgets/qboxlayout.h \
+		../../Software/Qtcreater/5.8/mingw53_32/include/QtWidgets/QGroupBox \
+		../../Software/Qtcreater/5.8/mingw53_32/include/QtWidgets/qgroupbox.h \
+		../../Software/Qtcreater/5.8/mingw53_32/include/QtWidgets/qframe.h \
+		../../Software/Qtcreater/5.8/mingw53_32/include/QtWidgets/QHBoxLayout \
 		../../Software/Qtcreater/5.8/mingw53_32/include/QtWidgets/QHeaderView \
 		../../Software/Qtcreater/5.8/mingw53_32/include/QtWidgets/qheaderview.h \
 		../../Software/Qtcreater/5.8/mingw53_32/include/QtWidgets/qabstractitemview.h \
 		../../Software/Qtcreater/5.8/mingw53_32/include/QtWidgets/qabstractscrollarea.h \
-		../../Software/Qtcreater/5.8/mingw53_32/include/QtWidgets/qframe.h \
 		../../Software/Qtcreater/5.8/mingw53_32/include/QtCore/qabstractitemmodel.h \
 		../../Software/Qtcreater/5.8/mingw53_32/include/QtCore/qitemselectionmodel.h \
 		../../Software/Qtcreater/5.8/mingw53_32/include/QtWidgets/qabstractitemdelegate.h \
@@ -506,6 +514,7 @@ release/mainwindow.o: mainwindow.cpp mainwindow.h \
 		../../Software/Qtcreater/5.8/mingw53_32/include/QtGui/qtextformat.h \
 		../../Software/Qtcreater/5.8/mingw53_32/include/QtGui/qpen.h \
 		../../Software/Qtcreater/5.8/mingw53_32/include/QtWidgets/QTextEdit \
+		../../Software/Qtcreater/5.8/mingw53_32/include/QtWidgets/QVBoxLayout \
 		../../Software/Qtcreater/5.8/mingw53_32/include/QtWidgets/QWidget \
 		../../Software/Qtcreater/5.8/mingw53_32/include/QtCore/qDebug
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\mainwindow.o mainwindow.cpp
