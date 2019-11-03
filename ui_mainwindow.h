@@ -35,6 +35,7 @@ public:
     QWidget *centralWidget;
     QGroupBox *groupBox;
     QTextBrowser *instructions;
+    QLabel *label_58;
     QGroupBox *groupBox_2;
     QWidget *layoutWidget;
     QHBoxLayout *horizontalLayout_6;
@@ -215,22 +216,28 @@ public:
         MainWindow->resize(1320, 700);
         MainWindow->setMinimumSize(QSize(1320, 700));
         MainWindow->setMaximumSize(QSize(1320, 700));
+        QFont font;
+        font.setStyleStrategy(QFont::PreferAntialias);
+        MainWindow->setFont(font);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         groupBox = new QGroupBox(centralWidget);
         groupBox->setObjectName(QStringLiteral("groupBox"));
-        groupBox->setGeometry(QRect(1160, 10, 151, 591));
+        groupBox->setGeometry(QRect(1120, 10, 181, 591));
         instructions = new QTextBrowser(groupBox);
         instructions->setObjectName(QStringLiteral("instructions"));
-        instructions->setGeometry(QRect(10, 20, 130, 560));
-        instructions->setMinimumSize(QSize(130, 560));
-        instructions->setMaximumSize(QSize(130, 560));
+        instructions->setGeometry(QRect(10, 20, 160, 500));
+        instructions->setMinimumSize(QSize(160, 500));
+        instructions->setMaximumSize(QSize(160, 500));
+        label_58 = new QLabel(groupBox);
+        label_58->setObjectName(QStringLiteral("label_58"));
+        label_58->setGeometry(QRect(10, 530, 121, 31));
         groupBox_2 = new QGroupBox(centralWidget);
         groupBox_2->setObjectName(QStringLiteral("groupBox_2"));
-        groupBox_2->setGeometry(QRect(10, 10, 1121, 101));
+        groupBox_2->setGeometry(QRect(10, 10, 1091, 101));
         layoutWidget = new QWidget(groupBox_2);
         layoutWidget->setObjectName(QStringLiteral("layoutWidget"));
-        layoutWidget->setGeometry(QRect(690, 10, 410, 32));
+        layoutWidget->setGeometry(QRect(650, 10, 410, 32));
         horizontalLayout_6 = new QHBoxLayout(layoutWidget);
         horizontalLayout_6->setSpacing(6);
         horizontalLayout_6->setContentsMargins(11, 11, 11, 11);
@@ -282,6 +289,7 @@ public:
         Nd_value->setObjectName(QStringLiteral("Nd_value"));
         Nd_value->setMinimumSize(QSize(100, 0));
         Nd_value->setMaximumSize(QSize(100, 16777215));
+        Nd_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         Nd_value->setDecimals(5);
         Nd_value->setMaximum(100000);
 
@@ -311,6 +319,7 @@ public:
         N_value->setObjectName(QStringLiteral("N_value"));
         N_value->setMinimumSize(QSize(100, 0));
         N_value->setMaximumSize(QSize(100, 16777215));
+        N_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         N_value->setDecimals(5);
         N_value->setMaximum(100000);
 
@@ -341,6 +350,7 @@ public:
         ut_value->setMinimumSize(QSize(100, 0));
         ut_value->setMaximumSize(QSize(100, 16777215));
         ut_value->setLayoutDirection(Qt::LeftToRight);
+        ut_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         ut_value->setDecimals(5);
         ut_value->setMaximum(100000);
 
@@ -385,10 +395,10 @@ public:
 
         groupBox_3 = new QGroupBox(centralWidget);
         groupBox_3->setObjectName(QStringLiteral("groupBox_3"));
-        groupBox_3->setGeometry(QRect(10, 230, 1121, 91));
+        groupBox_3->setGeometry(QRect(10, 230, 1091, 91));
         layoutWidget2 = new QWidget(groupBox_3);
         layoutWidget2->setObjectName(QStringLiteral("layoutWidget2"));
-        layoutWidget2->setGeometry(QRect(690, 20, 410, 32));
+        layoutWidget2->setGeometry(QRect(650, 20, 410, 32));
         horizontalLayout_20 = new QHBoxLayout(layoutWidget2);
         horizontalLayout_20->setSpacing(6);
         horizontalLayout_20->setContentsMargins(11, 11, 11, 11);
@@ -442,6 +452,7 @@ public:
         Pgca_value->setObjectName(QStringLiteral("Pgca_value"));
         Pgca_value->setMinimumSize(QSize(100, 0));
         Pgca_value->setMaximumSize(QSize(100, 16777215));
+        Pgca_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         Pgca_value->setDecimals(5);
         Pgca_value->setMaximum(100000);
 
@@ -471,6 +482,7 @@ public:
         Pd_value->setObjectName(QStringLiteral("Pd_value"));
         Pd_value->setMinimumSize(QSize(100, 0));
         Pd_value->setMaximumSize(QSize(100, 16777215));
+        Pd_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         Pd_value->setDecimals(5);
         Pd_value->setMaximum(100000);
 
@@ -500,6 +512,7 @@ public:
         SA_value->setObjectName(QStringLiteral("SA_value"));
         SA_value->setMinimumSize(QSize(100, 0));
         SA_value->setMaximumSize(QSize(100, 16777215));
+        SA_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         SA_value->setDecimals(5);
         SA_value->setMaximum(100000);
 
@@ -529,6 +542,7 @@ public:
         Pgcb_value->setObjectName(QStringLiteral("Pgcb_value"));
         Pgcb_value->setMinimumSize(QSize(100, 0));
         Pgcb_value->setMaximumSize(QSize(100, 16777215));
+        Pgcb_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         Pgcb_value->setDecimals(5);
         Pgcb_value->setMaximum(100000);
 
@@ -558,6 +572,7 @@ public:
         SC_value->setObjectName(QStringLiteral("SC_value"));
         SC_value->setMinimumSize(QSize(100, 0));
         SC_value->setMaximumSize(QSize(100, 16777215));
+        SC_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         SC_value->setDecimals(5);
         SC_value->setMaximum(100000);
 
@@ -575,10 +590,10 @@ public:
 
         groupBox_4 = new QGroupBox(centralWidget);
         groupBox_4->setObjectName(QStringLiteral("groupBox_4"));
-        groupBox_4->setGeometry(QRect(10, 330, 1121, 121));
+        groupBox_4->setGeometry(QRect(10, 330, 1091, 121));
         layoutWidget4 = new QWidget(groupBox_4);
         layoutWidget4->setObjectName(QStringLiteral("layoutWidget4"));
-        layoutWidget4->setGeometry(QRect(690, 20, 410, 32));
+        layoutWidget4->setGeometry(QRect(650, 20, 410, 32));
         horizontalLayout_29 = new QHBoxLayout(layoutWidget4);
         horizontalLayout_29->setSpacing(6);
         horizontalLayout_29->setContentsMargins(11, 11, 11, 11);
@@ -611,7 +626,7 @@ public:
 
         layoutWidget5 = new QWidget(groupBox_4);
         layoutWidget5->setObjectName(QStringLiteral("layoutWidget5"));
-        layoutWidget5->setGeometry(QRect(10, 20, 631, 83));
+        layoutWidget5->setGeometry(QRect(10, 20, 631, 91));
         gridLayout_4 = new QGridLayout(layoutWidget5);
         gridLayout_4->setSpacing(6);
         gridLayout_4->setContentsMargins(11, 11, 11, 11);
@@ -630,6 +645,7 @@ public:
         density_value = new QDoubleSpinBox(layoutWidget5);
         density_value->setObjectName(QStringLiteral("density_value"));
         density_value->setMaximumSize(QSize(100, 16777215));
+        density_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         density_value->setDecimals(5);
         density_value->setMaximum(100000);
 
@@ -659,6 +675,7 @@ public:
         ETp_value->setObjectName(QStringLiteral("ETp_value"));
         ETp_value->setMinimumSize(QSize(100, 0));
         ETp_value->setMaximumSize(QSize(100, 16777215));
+        ETp_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         ETp_value->setDecimals(5);
         ETp_value->setMaximum(100000);
 
@@ -687,6 +704,7 @@ public:
         R_add_I_value = new QDoubleSpinBox(layoutWidget5);
         R_add_I_value->setObjectName(QStringLiteral("R_add_I_value"));
         R_add_I_value->setMaximumSize(QSize(100, 16777215));
+        R_add_I_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         R_add_I_value->setDecimals(5);
         R_add_I_value->setMaximum(100000);
 
@@ -716,6 +734,7 @@ public:
         Nd_value_2->setObjectName(QStringLiteral("Nd_value_2"));
         Nd_value_2->setMinimumSize(QSize(100, 0));
         Nd_value_2->setMaximumSize(QSize(100, 16777215));
+        Nd_value_2->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         Nd_value_2->setDecimals(5);
         Nd_value_2->setMaximum(100000);
 
@@ -744,6 +763,7 @@ public:
         g_value = new QDoubleSpinBox(layoutWidget5);
         g_value->setObjectName(QStringLiteral("g_value"));
         g_value->setMaximumSize(QSize(100, 16777215));
+        g_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         g_value->setDecimals(5);
         g_value->setMaximum(100000);
 
@@ -772,6 +792,7 @@ public:
         Rd_value = new QDoubleSpinBox(layoutWidget5);
         Rd_value->setObjectName(QStringLiteral("Rd_value"));
         Rd_value->setMaximumSize(QSize(100, 16777215));
+        Rd_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         Rd_value->setDecimals(5);
         Rd_value->setMaximum(100000);
 
@@ -800,6 +821,7 @@ public:
         SD_value = new QDoubleSpinBox(layoutWidget5);
         SD_value->setObjectName(QStringLiteral("SD_value"));
         SD_value->setMaximumSize(QSize(100, 16777215));
+        SD_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         SD_value->setDecimals(5);
         SD_value->setMaximum(100000);
 
@@ -829,6 +851,7 @@ public:
         Wf_value->setObjectName(QStringLiteral("Wf_value"));
         Wf_value->setMinimumSize(QSize(100, 0));
         Wf_value->setMaximumSize(QSize(100, 16777215));
+        Wf_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         Wf_value->setDecimals(5);
         Wf_value->setMaximum(100000);
 
@@ -841,22 +864,23 @@ public:
 
         horizontalLayout_24->addWidget(label_53);
 
+
+        gridLayout_4->addLayout(horizontalLayout_24, 2, 1, 1, 1);
+
         write_into_Wf = new QPushButton(layoutWidget5);
         write_into_Wf->setObjectName(QStringLiteral("write_into_Wf"));
         write_into_Wf->setMinimumSize(QSize(100, 0));
+        write_into_Wf->setMaximumSize(QSize(100, 16777215));
 
-        horizontalLayout_24->addWidget(write_into_Wf);
-
-
-        gridLayout_4->addLayout(horizontalLayout_24, 2, 1, 1, 2);
+        gridLayout_4->addWidget(write_into_Wf, 2, 2, 1, 1);
 
         groupBox_5 = new QGroupBox(centralWidget);
         groupBox_5->setObjectName(QStringLiteral("groupBox_5"));
-        groupBox_5->setGeometry(QRect(10, 470, 1121, 101));
+        groupBox_5->setGeometry(QRect(10, 470, 1091, 101));
         groupBox_5->setMaximumSize(QSize(100000, 10000));
         layoutWidget6 = new QWidget(groupBox_5);
         layoutWidget6->setObjectName(QStringLiteral("layoutWidget6"));
-        layoutWidget6->setGeometry(QRect(690, 10, 414, 74));
+        layoutWidget6->setGeometry(QRect(650, 10, 414, 74));
         horizontalLayout_36 = new QHBoxLayout(layoutWidget6);
         horizontalLayout_36->setSpacing(6);
         horizontalLayout_36->setContentsMargins(11, 11, 11, 11);
@@ -921,17 +945,17 @@ public:
 
         write_into_Qp = new QPushButton(groupBox_5);
         write_into_Qp->setObjectName(QStringLiteral("write_into_Qp"));
-        write_into_Qp->setGeometry(QRect(450, 10, 100, 23));
+        write_into_Qp->setGeometry(QRect(450, 20, 100, 23));
         write_into_Qp->setMinimumSize(QSize(100, 0));
         write_into_Qp->setMaximumSize(QSize(100, 16777215));
         write_into_Qx = new QPushButton(groupBox_5);
         write_into_Qx->setObjectName(QStringLiteral("write_into_Qx"));
-        write_into_Qx->setGeometry(QRect(450, 40, 100, 23));
+        write_into_Qx->setGeometry(QRect(450, 50, 100, 23));
         write_into_Qx->setMinimumSize(QSize(100, 0));
         write_into_Qx->setMaximumSize(QSize(100, 16777215));
         layoutWidget7 = new QWidget(groupBox_5);
         layoutWidget7->setObjectName(QStringLiteral("layoutWidget7"));
-        layoutWidget7->setGeometry(QRect(10, 10, 421, 52));
+        layoutWidget7->setGeometry(QRect(10, 20, 421, 52));
         gridLayout_12 = new QGridLayout(layoutWidget7);
         gridLayout_12->setSpacing(6);
         gridLayout_12->setContentsMargins(11, 11, 11, 11);
@@ -951,6 +975,7 @@ public:
         K_value->setObjectName(QStringLiteral("K_value"));
         K_value->setMinimumSize(QSize(100, 0));
         K_value->setMaximumSize(QSize(100, 16777215));
+        K_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         K_value->setDecimals(5);
         K_value->setMaximum(100000);
 
@@ -980,6 +1005,7 @@ public:
         Qp_value->setObjectName(QStringLiteral("Qp_value"));
         Qp_value->setMinimumSize(QSize(100, 0));
         Qp_value->setMaximumSize(QSize(100, 16777215));
+        Qp_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         Qp_value->setDecimals(5);
         Qp_value->setMaximum(100000);
 
@@ -1008,6 +1034,7 @@ public:
         x_value->setObjectName(QStringLiteral("x_value"));
         x_value->setMinimumSize(QSize(100, 0));
         x_value->setMaximumSize(QSize(100, 16777215));
+        x_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         x_value->setDecimals(5);
         x_value->setMaximum(100000);
 
@@ -1037,6 +1064,7 @@ public:
         Qx_value->setObjectName(QStringLiteral("Qx_value"));
         Qx_value->setMinimumSize(QSize(100, 0));
         Qx_value->setMaximumSize(QSize(100, 16777215));
+        Qx_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         Qx_value->setDecimals(5);
         Qx_value->setMaximum(100000);
 
@@ -1074,7 +1102,7 @@ public:
 
         groupBox_6 = new QGroupBox(centralWidget);
         groupBox_6->setObjectName(QStringLiteral("groupBox_6"));
-        groupBox_6->setGeometry(QRect(10, 120, 1121, 101));
+        groupBox_6->setGeometry(QRect(10, 120, 1091, 101));
         layoutWidget9 = new QWidget(groupBox_6);
         layoutWidget9->setObjectName(QStringLiteral("layoutWidget9"));
         layoutWidget9->setGeometry(QRect(10, 20, 631, 52));
@@ -1097,6 +1125,7 @@ public:
         CaCO3_value->setObjectName(QStringLiteral("CaCO3_value"));
         CaCO3_value->setMinimumSize(QSize(100, 0));
         CaCO3_value->setMaximumSize(QSize(100, 16777215));
+        CaCO3_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         CaCO3_value->setDecimals(5);
         CaCO3_value->setMaximum(100000);
 
@@ -1126,6 +1155,7 @@ public:
         Sa_value->setObjectName(QStringLiteral("Sa_value"));
         Sa_value->setMinimumSize(QSize(100, 0));
         Sa_value->setMaximumSize(QSize(100, 16777215));
+        Sa_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         Sa_value->setDecimals(5);
         Sa_value->setMaximum(100000);
 
@@ -1155,6 +1185,7 @@ public:
         CI_value->setObjectName(QStringLiteral("CI_value"));
         CI_value->setMinimumSize(QSize(100, 0));
         CI_value->setMaximumSize(QSize(100, 16777215));
+        CI_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         CI_value->setDecimals(5);
         CI_value->setMaximum(100000);
 
@@ -1184,6 +1215,7 @@ public:
         Si_value->setObjectName(QStringLiteral("Si_value"));
         Si_value->setMinimumSize(QSize(100, 0));
         Si_value->setMaximumSize(QSize(100, 16777215));
+        Si_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         Si_value->setDecimals(5);
         Si_value->setMaximum(100000);
 
@@ -1213,6 +1245,7 @@ public:
         Sa_divide_CI_value->setObjectName(QStringLiteral("Sa_divide_CI_value"));
         Sa_divide_CI_value->setMinimumSize(QSize(100, 0));
         Sa_divide_CI_value->setMaximumSize(QSize(100, 16777215));
+        Sa_divide_CI_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         Sa_divide_CI_value->setDecimals(5);
         Sa_divide_CI_value->setMaximum(100000);
 
@@ -1242,6 +1275,7 @@ public:
         OM_value->setObjectName(QStringLiteral("OM_value"));
         OM_value->setMinimumSize(QSize(100, 0));
         OM_value->setMaximumSize(QSize(100, 16777215));
+        OM_value->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         OM_value->setDecimals(5);
         OM_value->setMaximum(100000);
 
@@ -1259,7 +1293,7 @@ public:
 
         layoutWidget10 = new QWidget(groupBox_6);
         layoutWidget10->setObjectName(QStringLiteral("layoutWidget10"));
-        layoutWidget10->setGeometry(QRect(690, 20, 410, 32));
+        layoutWidget10->setGeometry(QRect(650, 20, 410, 32));
         horizontalLayout_10 = new QHBoxLayout(layoutWidget10);
         horizontalLayout_10->setSpacing(6);
         horizontalLayout_10->setContentsMargins(11, 11, 11, 11);
@@ -1291,7 +1325,7 @@ public:
 
         layoutWidget11 = new QWidget(groupBox_6);
         layoutWidget11->setObjectName(QStringLiteral("layoutWidget11"));
-        layoutWidget11->setGeometry(QRect(690, 60, 410, 32));
+        layoutWidget11->setGeometry(QRect(650, 60, 410, 32));
         horizontalLayout_14 = new QHBoxLayout(layoutWidget11);
         horizontalLayout_14->setSpacing(6);
         horizontalLayout_14->setContentsMargins(11, 11, 11, 11);
@@ -1346,29 +1380,31 @@ public:
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">\347\202\271\345\207\273\350\276\223\345\205\245\350\257\264\346\230\216\346\230\276\347\244\272\345\220\204\351\241\271\350\257\264\346\230\216</p></body></html>", Q_NULLPTR));
-        groupBox_2->setTitle(QString());
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">\347\202\271\345\207\273\350\276\223\345\205\245\350\257\264\346\230\216\346\230\276\347\244\272\345\220\204\351\241\271\350\257\264\346\230\216</p></body></html>", Q_NULLPTR));
+        label_58->setText(QApplication::translate("MainWindow", "\346\214\211\344\275\217Ctrl\347\224\250\351\274\240\346\240\207\346\273\232\350\275\256\345\217\257\n"
+"\346\224\276\345\244\247\347\274\251\345\260\217", Q_NULLPTR));
+        groupBox_2->setTitle(QApplication::translate("MainWindow", "\350\256\241\347\256\227\351\243\216\345\233\240\345\255\220Wf", Q_NULLPTR));
         pushButton_2->setText(QApplication::translate("MainWindow", "\350\276\223\345\205\245\350\257\264\346\230\216", Q_NULLPTR));
         Wf_calculate->setText(QApplication::translate("MainWindow", "\350\256\241\347\256\227", Q_NULLPTR));
-        label_5->setText(QApplication::translate("MainWindow", "Wf", Q_NULLPTR));
-        label_4->setText(QApplication::translate("MainWindow", "Nd", Q_NULLPTR));
+        label_5->setText(QApplication::translate("MainWindow", "  Wf", Q_NULLPTR));
+        label_4->setText(QApplication::translate("MainWindow", "<html><head/><body><p>N<span style=\" vertical-align:sub;\">d</span></p></body></html>", Q_NULLPTR));
         label_21->setText(QApplication::translate("MainWindow", "(\345\244\251)", Q_NULLPTR));
         label_3->setText(QApplication::translate("MainWindow", "N", Q_NULLPTR));
         label_39->setText(QApplication::translate("MainWindow", "\345\244\251", Q_NULLPTR));
-        label_2->setText(QApplication::translate("MainWindow", "ut", Q_NULLPTR));
+        label_2->setText(QApplication::translate("MainWindow", "<html><head/><body><p>u<span style=\" vertical-align:sub;\">t</span></p></body></html>", Q_NULLPTR));
         label_14->setText(QApplication::translate("MainWindow", "(m/s)", Q_NULLPTR));
-        label->setText(QApplication::translate("MainWindow", "u2", Q_NULLPTR));
+        label->setText(QApplication::translate("MainWindow", "<html><head/><body><p>u<span style=\" vertical-align:sub;\">2</span></p></body></html>", Q_NULLPTR));
         label_38->setText(QApplication::translate("MainWindow", "(m/s)\346\224\257\346\214\201\350\276\223\345\205\245\346\225\264\346\225\260, \346\265\256\347\202\271\346\225\260, \350\264\237\346\225\260\345\272\217\345\210\227\344\273\245\347\251\272\346\240\274\346\210\226\346\240\207\347\202\271\345\210\206\351\232\224", Q_NULLPTR));
         groupBox_3->setTitle(QApplication::translate("MainWindow", "\350\256\241\347\256\227\346\244\215\350\242\253\345\233\240\345\255\220COG", Q_NULLPTR));
         pushButton_5->setText(QApplication::translate("MainWindow", "\350\276\223\345\205\245\350\257\264\346\230\216", Q_NULLPTR));
         COG_calculate->setText(QApplication::translate("MainWindow", "\350\256\241\347\256\227", Q_NULLPTR));
-        label_20->setText(QApplication::translate("MainWindow", "COG", Q_NULLPTR));
+        label_20->setText(QApplication::translate("MainWindow", "  COG", Q_NULLPTR));
         label_16->setText(QApplication::translate("MainWindow", "Pgca", Q_NULLPTR));
         label_91->setText(QString());
         label_15->setText(QApplication::translate("MainWindow", "Pd", Q_NULLPTR));
         label_47->setText(QApplication::translate("MainWindow", "(\345\244\251)", Q_NULLPTR));
         label_19->setText(QApplication::translate("MainWindow", "SA", Q_NULLPTR));
-        label_48->setText(QApplication::translate("MainWindow", "(cm\302\262)", Q_NULLPTR));
+        label_48->setText(QApplication::translate("MainWindow", "<html><head/><body><p>(cm<span style=\" vertical-align:super;\">2</span>)</p></body></html>", Q_NULLPTR));
         label_17->setText(QApplication::translate("MainWindow", "Pgcb", Q_NULLPTR));
         label_92->setText(QString());
         label_18->setText(QApplication::translate("MainWindow", "SC", Q_NULLPTR));
@@ -1376,9 +1412,9 @@ public:
         groupBox_4->setTitle(QApplication::translate("MainWindow", "\350\256\241\347\256\227\346\260\224\350\261\241\345\233\240\345\255\220", Q_NULLPTR));
         pushButton_6->setText(QApplication::translate("MainWindow", "\350\276\223\345\205\245\350\257\264\346\230\216", Q_NULLPTR));
         WF_calculate->setText(QApplication::translate("MainWindow", "\350\256\241\347\256\227", Q_NULLPTR));
-        label_31->setText(QApplication::translate("MainWindow", "WF", Q_NULLPTR));
+        label_31->setText(QApplication::translate("MainWindow", "  WF", Q_NULLPTR));
         label_23->setText(QApplication::translate("MainWindow", "\317\201", Q_NULLPTR));
-        label_51->setText(QApplication::translate("MainWindow", "(kg/m\302\263)", Q_NULLPTR));
+        label_51->setText(QApplication::translate("MainWindow", "<html><head/><body><p>(kg/m<span style=\" vertical-align:super;\">3</span>)</p></body></html>", Q_NULLPTR));
         label_27->setText(QApplication::translate("MainWindow", "ETp", Q_NULLPTR));
         label_52->setText(QApplication::translate("MainWindow", "(mm)", Q_NULLPTR));
         label_29->setText(QApplication::translate("MainWindow", "R+I", Q_NULLPTR));
@@ -1386,33 +1422,33 @@ public:
         label_30->setText(QApplication::translate("MainWindow", "Nd", Q_NULLPTR));
         label_54->setText(QApplication::translate("MainWindow", "(\345\244\251)", Q_NULLPTR));
         label_24->setText(QApplication::translate("MainWindow", "g", Q_NULLPTR));
-        label_55->setText(QApplication::translate("MainWindow", "(m/s\302\262)", Q_NULLPTR));
+        label_55->setText(QApplication::translate("MainWindow", "<html><head/><body><p>(m/s<span style=\" vertical-align:super;\">2</span>)</p></body></html>", Q_NULLPTR));
         label_28->setText(QApplication::translate("MainWindow", "Rd", Q_NULLPTR));
         label_93->setText(QString());
         label_26->setText(QApplication::translate("MainWindow", "SD", Q_NULLPTR));
         label_94->setText(QString());
         label_22->setText(QApplication::translate("MainWindow", "Wf", Q_NULLPTR));
-        label_53->setText(QApplication::translate("MainWindow", "(m/s)\302\263", Q_NULLPTR));
+        label_53->setText(QApplication::translate("MainWindow", "<html><head/><body><p>(m/s)<span style=\" vertical-align:super;\">3</span></p></body></html>", Q_NULLPTR));
         write_into_Wf->setText(QApplication::translate("MainWindow", "\345\241\253\345\205\245", Q_NULLPTR));
-        groupBox_5->setTitle(QString());
+        groupBox_5->setTitle(QApplication::translate("MainWindow", "\345\234\237\345\243\244\344\277\235\346\214\201\351\207\217Q\345\222\214\345\234\237\345\243\244\344\277\235\346\234\211\347\216\207Q`\350\256\241\347\256\227", Q_NULLPTR));
         pushButton_7->setText(QApplication::translate("MainWindow", "\350\276\223\345\205\245\350\257\264\346\230\216", Q_NULLPTR));
         Q_calculate->setText(QApplication::translate("MainWindow", "\350\256\241\347\256\227", Q_NULLPTR));
-        label_36->setText(QApplication::translate("MainWindow", "Q", Q_NULLPTR));
-        label_37->setText(QApplication::translate("MainWindow", "Q`", Q_NULLPTR));
+        label_36->setText(QApplication::translate("MainWindow", "  Q", Q_NULLPTR));
+        label_37->setText(QApplication::translate("MainWindow", "  Q`", Q_NULLPTR));
         write_into_Qp->setText(QApplication::translate("MainWindow", "\345\241\253\345\205\245", Q_NULLPTR));
         write_into_Qx->setText(QApplication::translate("MainWindow", "\345\241\253\345\205\245", Q_NULLPTR));
         label_33->setText(QApplication::translate("MainWindow", "K`", Q_NULLPTR));
         label_90->setText(QString());
         label_35->setText(QApplication::translate("MainWindow", "Qp", Q_NULLPTR));
-        label_56->setText(QApplication::translate("MainWindow", "g*a/m\302\262", Q_NULLPTR));
+        label_56->setText(QApplication::translate("MainWindow", "<html><head/><body><p>g*a/m<span style=\" vertical-align:super;\">3</span></p></body></html>", Q_NULLPTR));
         label_32->setText(QApplication::translate("MainWindow", "x", Q_NULLPTR));
         label_40->setText(QApplication::translate("MainWindow", "(m)", Q_NULLPTR));
         label_34->setText(QApplication::translate("MainWindow", "Qx", Q_NULLPTR));
-        label_57->setText(QApplication::translate("MainWindow", "g*a/m\302\262", Q_NULLPTR));
+        label_57->setText(QApplication::translate("MainWindow", "<html><head/><body><p>g*a/m<span style=\" vertical-align:super;\">3</span></p></body></html>", Q_NULLPTR));
         pushButton->setText(QApplication::translate("MainWindow", "\345\205\250\351\203\250\350\256\241\347\256\227", Q_NULLPTR));
         label_25->setText(QApplication::translate("MainWindow", "\350\257\267\347\241\256\350\256\244\345\241\253\345\206\231\346\255\243\347\241\256\345\220\216\344\275\277\347\224\250", Q_NULLPTR));
         groupBox_6->setTitle(QApplication::translate("MainWindow", "\345\234\237\345\243\244\347\273\223\347\232\256\345\233\240\345\255\220SCF \344\270\216 \345\234\237\345\243\244\345\217\257\350\232\200\346\200\247\346\210\220\345\210\206EF", Q_NULLPTR));
-        label_12->setText(QApplication::translate("MainWindow", "CaCO3", Q_NULLPTR));
+        label_12->setText(QApplication::translate("MainWindow", "<html><head/><body><p>CaCO<span style=\" vertical-align:sub;\">3</span></p></body></html>", Q_NULLPTR));
         CaCO3_value->setSuffix(QString());
         label_45->setText(QApplication::translate("MainWindow", "(%)", Q_NULLPTR));
         label_9->setText(QApplication::translate("MainWindow", "Sa", Q_NULLPTR));
@@ -1427,10 +1463,10 @@ public:
         label_42->setText(QApplication::translate("MainWindow", "(%)", Q_NULLPTR));
         pushButton_3->setText(QApplication::translate("MainWindow", "\350\276\223\345\205\245\350\257\264\346\230\216", Q_NULLPTR));
         SCF_calculate->setText(QApplication::translate("MainWindow", "\350\256\241\347\256\227", Q_NULLPTR));
-        label_8->setText(QApplication::translate("MainWindow", "SCF", Q_NULLPTR));
+        label_8->setText(QApplication::translate("MainWindow", "  SCF", Q_NULLPTR));
         pushButton_4->setText(QApplication::translate("MainWindow", "\350\276\223\345\205\245\350\257\264\346\230\216", Q_NULLPTR));
         EF_calculate->setText(QApplication::translate("MainWindow", "\350\256\241\347\256\227", Q_NULLPTR));
-        label_13->setText(QApplication::translate("MainWindow", "EF", Q_NULLPTR));
+        label_13->setText(QApplication::translate("MainWindow", "  EF", Q_NULLPTR));
     } // retranslateUi
 
 };

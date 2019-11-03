@@ -17,13 +17,13 @@ CXXFLAGS      = -pipe -fno-keep-inline-dllexport -O2 -std=gnu++11 -frtti -Wall -
 INCPATH       = -I. -I..\..\Software\Qtcreater\5.8\mingw53_32\include -I..\..\Software\Qtcreater\5.8\mingw53_32\include\QtWidgets -I..\..\Software\Qtcreater\5.8\mingw53_32\include\QtGui -I..\..\Software\Qtcreater\5.8\mingw53_32\include\QtANGLE -I..\..\Software\Qtcreater\5.8\mingw53_32\include\QtCore -Irelease -I. -I..\..\Software\Qtcreater\5.8\mingw53_32\mkspecs\win32-g++ 
 LINKER      =        g++
 LFLAGS        =        -Wl,-s -Wl,-subsystem,windows -mthreads
-LIBS        =        -lmingw32 -LD:\Software\Qtcreater\5.8\mingw53_32\lib D:\Software\Qtcreater\5.8\mingw53_32\lib\libqtmain.a -LC:\utils\my_sql\my_sql\lib -LC:\utils\postgresql\pgsql\lib -lshell32 D:\Software\Qtcreater\5.8\mingw53_32\lib\libQt5Widgets.a D:\Software\Qtcreater\5.8\mingw53_32\lib\libQt5Gui.a D:\Software\Qtcreater\5.8\mingw53_32\lib\libQt5Core.a 
+LIBS        =        -lmingw32 -LD:\Software\Qtcreater\5.8\mingw53_32\lib D:\Software\Qtcreater\5.8\mingw53_32\lib\libqtmain.a -LC:\utils\my_sql\my_sql\lib -LC:\utils\postgresql\pgsql\lib -lshell32 D:\Software\Qtcreater\5.8\mingw53_32\lib\libQt5Widgets.a D:\Software\Qtcreater\5.8\mingw53_32\lib\libQt5Gui.a D:\Software\Qtcreater\5.8\mingw53_32\lib\libQt5Core.a release\SoilWindErosionControlServiceEvaluationSoftware_resource_res.o 
 QMAKE         = D:\Software\Qtcreater\5.8\mingw53_32\bin\qmake.exe
 IDC           = idc
 IDL           = midl
 ZIP           = zip -r -9
 DEF_FILE      = 
-RES_FILE      = 
+RES_FILE      = release\SoilWindErosionControlServiceEvaluationSoftware_resource_res.o
 COPY          = copy /y
 SED           = $(QMAKE) -install sed
 COPY_FILE     = copy /y
@@ -62,8 +62,11 @@ DESTDIR_TARGET = release\SoilWindErosionControlServiceEvaluationSoftware.exe
 first: all
 all: Makefile.Release  $(DESTDIR_TARGET)
 
-$(DESTDIR_TARGET): ui_mainwindow.h $(OBJECTS) 
+$(DESTDIR_TARGET): ui_mainwindow.h $(OBJECTS) release/SoilWindErosionControlServiceEvaluationSoftware_resource_res.o
 	$(LINKER) $(LFLAGS) -o $(DESTDIR_TARGET) $(OBJECTS)  $(LIBS)
+
+release/SoilWindErosionControlServiceEvaluationSoftware_resource_res.o: SoilWindErosionControlServiceEvaluationSoftware_resource.rc
+	windres -i SoilWindErosionControlServiceEvaluationSoftware_resource.rc -o release\SoilWindErosionControlServiceEvaluationSoftware_resource_res.o --include-dir=. $(DEFINES)
 
 qmake: FORCE
 	@$(QMAKE) -o Makefile.Release SoilWindErosionControlServiceEvaluationSoftware.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
@@ -75,6 +78,7 @@ dist:
 
 clean: compiler_clean 
 	-$(DEL_FILE) release\main.o release\mainwindow.o release\moc_mainwindow.o
+	-$(DEL_FILE) release\SoilWindErosionControlServiceEvaluationSoftware_resource_res.o
 
 distclean: clean 
 	-$(DEL_FILE) .qmake.stash

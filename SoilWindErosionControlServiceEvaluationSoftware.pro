@@ -30,3 +30,5 @@ HEADERS  += mainwindow.h \
     tools.h
 
 FORMS    += mainwindow.ui
+
+RC_ICONS = calculate.ico
