@@ -118,3 +118,89 @@ void MainWindow::on_pushButton_clicked()
     on_write_into_Qp_clicked();
     on_Q_calculate_clicked();
 }
+
+void MainWindow::setInstructionText(QString str)
+{
+    this->ui->instructions->setText(str);
+}
+/** 下标
+ * @brief sub
+ * @param s
+ * @return
+ */
+QString sub(QString s) {
+    return QString("<sub>") + s + QString("</sub>");
+}
+/** 上标
+ * @brief sup
+ * @param s
+ * @return
+ */
+QString sup(QString s) {
+    return QString("<sup>") + s + QString("</sup>");
+}
+/** 换行
+ * @brief br
+ * @return
+ */
+QString br() {
+    return QString("<br>");
+}
+
+/**
+    Wf的说明
+ * @brief MainWindow::on_pushButton_2_clicked
+ */
+void MainWindow::on_pushButton_2_clicked()
+{
+    auto text = QString("Wf: 风因子<br>u<sub>2</sub>: 2m处的风速(m/s)") +
+           QString("<br>u<sub>t</sub>: 2m处的临界风速(假定5m/s)<br>") +
+           QString("N: 风速的观察次数(一般用试验期间天数1~15d的500次测定数值)<br>") +
+           QString("N<sub>d</sub>: 试验期间天数");
+    this->setInstructionText(text);
+}
+/**
+  SCF的输入说明
+ * @brief MainWindow::on_pushButton_3_clicked
+ */
+void MainWindow::on_pushButton_3_clicked()
+{
+    auto text = QString("土壤结皮因子SCF<br>CI——粘土含量（%）<br>OM——有机质含量（%）");
+    this->setInstructionText(text);
+}
+/**
+  EF的输入说明
+ * @brief MainWindow::on_pushButton_4_clicked
+ */
+void MainWindow::on_pushButton_4_clicked()
+{
+    auto text = QString("EF:土壤可蚀性成分<br>Sa——沙粒含量（%）<br>Si——粉粒含量（%）<br>Sa/CI——沙粒与粘粒比例<br>CaCO<sub>3</sub>——碳酸钙含量（%）");
+    this->setInstructionText(text);
+}
+/**
+  COG的输入说明
+ * @brief MainWindow::on_pushButton_5_clicked
+ */
+void MainWindow::on_pushButton_5_clicked()
+{
+    auto text = QString("COG：植被因子<br>P<sub>gca</sub>——植物生长系数a<br>P<sub>gcb</sub>——植物生长系数b<br>SC——土壤表层平铺覆盖率（%）<br>Pd——种植天数<br>SA——倾斜覆盖面积＝1m<sup>2</sup>上直立秸秆数量×秸秆平均直径（cm）×直立高度（cm）<br>");
+    setInstructionText(text);
+}
+/**
+ * WF的输入说明
+ * @brief MainWindow::on_pushButton_6_clicked
+ */
+void MainWindow::on_pushButton_6_clicked()
+{
+    auto text = QString("WF——气象因子（kg/m)<br>Wf——风因子（m/s）<sup>3</sup>；（该项前面计算过）<br>ρ——空气密度（kg/m<sup>3</sup>）；<br>g——重力加速度（m/s<sup>2</sup>）；<br>SD——雪覆盖因子；<br>ETp——潜在相对蒸散量（mm）；<br>Rd——降雨日数和/或灌溉次数；<br>R+I——降雨量和灌溉量（mm）；<br>N<sub>d</sub>——日数（一般为15d）。<br>");
+    setInstructionText(text);
+}
+/**
+  Q和Q`的输入说明
+ * @brief MainWindow::on_pushButton_7_clicked
+ */
+void MainWindow::on_pushButton_7_clicked()
+{
+    auto text = QString("x为地块长度（m），K′——土壤粗糙度<br>Qx为土壤风蚀量（g·m<sup>-2</sup>·a）<br>Qx计算公式与Qx一致，只是COG直接数值为1， WF中Rd——降雨日数次数；R+I——降雨量（mm）；<br>土壤保持量Q和土壤保有率Q’ ");
+    setInstructionText(text);
+}

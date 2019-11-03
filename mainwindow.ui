@@ -38,7 +38,7 @@
     <property name="title">
      <string>说明</string>
     </property>
-    <widget class="QTextBrowser" name="Wf_result_3">
+    <widget class="QTextBrowser" name="instructions">
      <property name="geometry">
       <rect>
        <x>10</x>

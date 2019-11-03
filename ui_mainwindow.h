@@ -34,7 +34,7 @@ class Ui_MainWindow
 public:
     QWidget *centralWidget;
     QGroupBox *groupBox;
-    QTextBrowser *Wf_result_3;
+    QTextBrowser *instructions;
     QGroupBox *groupBox_2;
     QWidget *layoutWidget;
     QHBoxLayout *horizontalLayout_6;
@@ -220,11 +220,11 @@ public:
         groupBox = new QGroupBox(centralWidget);
         groupBox->setObjectName(QStringLiteral("groupBox"));
         groupBox->setGeometry(QRect(1160, 10, 151, 591));
-        Wf_result_3 = new QTextBrowser(groupBox);
-        Wf_result_3->setObjectName(QStringLiteral("Wf_result_3"));
-        Wf_result_3->setGeometry(QRect(10, 20, 130, 560));
-        Wf_result_3->setMinimumSize(QSize(130, 560));
-        Wf_result_3->setMaximumSize(QSize(130, 560));
+        instructions = new QTextBrowser(groupBox);
+        instructions->setObjectName(QStringLiteral("instructions"));
+        instructions->setGeometry(QRect(10, 20, 130, 560));
+        instructions->setMinimumSize(QSize(130, 560));
+        instructions->setMaximumSize(QSize(130, 560));
         groupBox_2 = new QGroupBox(centralWidget);
         groupBox_2->setObjectName(QStringLiteral("groupBox_2"));
         groupBox_2->setGeometry(QRect(10, 10, 1121, 101));
@@ -1342,7 +1342,7 @@ public:
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", Q_NULLPTR));
         groupBox->setTitle(QApplication::translate("MainWindow", "\350\257\264\346\230\216", Q_NULLPTR));
-        Wf_result_3->setHtml(QApplication::translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        instructions->setHtml(QApplication::translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
