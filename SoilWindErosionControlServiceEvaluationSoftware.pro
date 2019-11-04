@@ -32,3 +32,5 @@ HEADERS  += mainwindow.h \
 FORMS    += mainwindow.ui
 
 RC_ICONS = calculate.ico
+
+UI_DIR=./UI
