@@ -6,24 +6,25 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1320</width>
+    <width>1355</width>
     <height>700</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>1320</width>
+    <width>1350</width>
     <height>700</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>1320</width>
+    <width>1355</width>
     <height>700</height>
    </size>
   </property>
   <property name="font">
    <font>
+    <family>Arial</family>
     <stylestrategy>PreferAntialias</stylestrategy>
    </font>
   </property>
@@ -34,7 +35,7 @@
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>1120</x>
+      <x>1170</x>
       <y>10</y>
       <width>181</width>
       <height>591</height>
@@ -68,8 +69,8 @@
       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;点击输入说明显示各项说明&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Arial'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'SimSun'; font-size:10pt;&quot;&gt;点击输入说明显示各项说明&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_58">
@@ -77,7 +78,7 @@ p, li { white-space: pre-wrap; }
       <rect>
        <x>10</x>
        <y>530</y>
-       <width>121</width>
+       <width>161</width>
        <height>31</height>
       </rect>
      </property>
@@ -91,10 +92,17 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>10</y>
-      <width>1091</width>
+      <y>15</y>
+      <width>1141</width>
       <height>101</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <italic>false</italic>
+      <stylestrategy>PreferAntialias</stylestrategy>
+     </font>
     </property>
     <property name="title">
      <string>计算风因子Wf</string>
@@ -102,15 +110,29 @@ p, li { white-space: pre-wrap; }
     <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
-       <x>650</x>
-       <y>10</y>
-       <width>410</width>
+       <x>670</x>
+       <y>40</y>
+       <width>459</width>
        <height>32</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <italic>false</italic>
+       <stylestrategy>PreferAntialias</stylestrategy>
+      </font>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout_6">
       <item>
        <widget class="QPushButton" name="pushButton_2">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <italic>false</italic>
+          <stylestrategy>PreferAntialias</stylestrategy>
+         </font>
+        </property>
         <property name="text">
          <string>输入说明</string>
         </property>
@@ -118,6 +140,13 @@ p, li { white-space: pre-wrap; }
       </item>
       <item>
        <widget class="QPushButton" name="Wf_calculate">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <italic>false</italic>
+          <stylestrategy>PreferAntialias</stylestrategy>
+         </font>
+        </property>
         <property name="text">
          <string>计算</string>
         </property>
@@ -127,7 +156,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="label_5">
         <property name="minimumSize">
          <size>
-          <width>40</width>
+          <width>50</width>
           <height>0</height>
          </size>
         </property>
@@ -137,8 +166,18 @@ p, li { white-space: pre-wrap; }
           <height>16777215</height>
          </size>
         </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <italic>false</italic>
+          <stylestrategy>PreferAntialias</stylestrategy>
+         </font>
+        </property>
         <property name="text">
          <string>  Wf</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
         </property>
        </widget>
       </item>
@@ -156,6 +195,13 @@ p, li { white-space: pre-wrap; }
           <height>30</height>
          </size>
         </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <italic>false</italic>
+          <stylestrategy>PreferAntialias</stylestrategy>
+         </font>
+        </property>
        </widget>
       </item>
      </layout>
@@ -164,10 +210,17 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>10</y>
-       <width>631</width>
-       <height>72</height>
+       <y>20</y>
+       <width>651</width>
+       <height>76</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <italic>false</italic>
+       <stylestrategy>PreferAntialias</stylestrategy>
+      </font>
      </property>
      <layout class="QGridLayout" name="gridLayout_11">
       <item row="0" column="0">
@@ -176,7 +229,7 @@ p, li { white-space: pre-wrap; }
          <widget class="QLabel" name="label_4">
           <property name="minimumSize">
            <size>
-            <width>40</width>
+            <width>50</width>
             <height>0</height>
            </size>
           </property>
@@ -186,8 +239,18 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;N&lt;span style=&quot; vertical-align:sub;&quot;&gt;d&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -204,6 +267,13 @@ p, li { white-space: pre-wrap; }
             <width>100</width>
             <height>16777215</height>
            </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -230,6 +300,13 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>(天)</string>
           </property>
@@ -243,7 +320,7 @@ p, li { white-space: pre-wrap; }
          <widget class="QLabel" name="label_3">
           <property name="minimumSize">
            <size>
-            <width>40</width>
+            <width>50</width>
             <height>0</height>
            </size>
           </property>
@@ -253,8 +330,18 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>N</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -271,6 +358,13 @@ p, li { white-space: pre-wrap; }
             <width>100</width>
             <height>16777215</height>
            </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -297,6 +391,13 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>天</string>
           </property>
@@ -310,7 +411,7 @@ p, li { white-space: pre-wrap; }
          <widget class="QLabel" name="label_2">
           <property name="minimumSize">
            <size>
-            <width>40</width>
+            <width>50</width>
             <height>0</height>
            </size>
           </property>
@@ -320,8 +421,18 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;u&lt;span style=&quot; vertical-align:sub;&quot;&gt;t&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -338,6 +449,13 @@ p, li { white-space: pre-wrap; }
             <width>100</width>
             <height>16777215</height>
            </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
           </property>
           <property name="layoutDirection">
            <enum>Qt::LeftToRight</enum>
@@ -367,6 +485,13 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>(m/s)</string>
           </property>
@@ -380,7 +505,7 @@ p, li { white-space: pre-wrap; }
          <widget class="QLabel" name="label">
           <property name="minimumSize">
            <size>
-            <width>40</width>
+            <width>50</width>
             <height>0</height>
            </size>
           </property>
@@ -390,8 +515,18 @@ p, li { white-space: pre-wrap; }
             <height>30</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;u&lt;span style=&quot; vertical-align:sub;&quot;&gt;2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -409,6 +544,13 @@ p, li { white-space: pre-wrap; }
             <height>30</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
          </widget>
         </item>
         <item>
@@ -425,8 +567,15 @@ p, li { white-space: pre-wrap; }
             <height>40</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
-           <string>(m/s)支持输入整数, 浮点数, 负数序列以空格或标点分隔</string>
+           <string>(m/s)     支持输入序列以空格或标点分隔</string>
           </property>
          </widget>
         </item>
@@ -439,10 +588,17 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>230</y>
-      <width>1091</width>
+      <y>240</y>
+      <width>1141</width>
       <height>91</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <italic>false</italic>
+      <stylestrategy>PreferAntialias</stylestrategy>
+     </font>
     </property>
     <property name="title">
      <string>计算植被因子COG</string>
@@ -450,11 +606,18 @@ p, li { white-space: pre-wrap; }
     <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
-       <x>650</x>
-       <y>20</y>
-       <width>410</width>
+       <x>670</x>
+       <y>40</y>
+       <width>459</width>
        <height>32</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <italic>false</italic>
+       <stylestrategy>PreferAntialias</stylestrategy>
+      </font>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout_20">
       <item>
@@ -464,6 +627,13 @@ p, li { white-space: pre-wrap; }
           <width>0</width>
           <height>0</height>
          </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <italic>false</italic>
+          <stylestrategy>PreferAntialias</stylestrategy>
+         </font>
         </property>
         <property name="text">
          <string>输入说明</string>
@@ -478,6 +648,13 @@ p, li { white-space: pre-wrap; }
           <height>0</height>
          </size>
         </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <italic>false</italic>
+          <stylestrategy>PreferAntialias</stylestrategy>
+         </font>
+        </property>
         <property name="text">
          <string>计算</string>
         </property>
@@ -487,7 +664,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="label_20">
         <property name="minimumSize">
          <size>
-          <width>40</width>
+          <width>50</width>
           <height>0</height>
          </size>
         </property>
@@ -497,8 +674,18 @@ p, li { white-space: pre-wrap; }
           <height>16777215</height>
          </size>
         </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <italic>false</italic>
+          <stylestrategy>PreferAntialias</stylestrategy>
+         </font>
+        </property>
         <property name="text">
          <string>  COG</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
         </property>
        </widget>
       </item>
@@ -516,6 +703,13 @@ p, li { white-space: pre-wrap; }
           <height>30</height>
          </size>
         </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <italic>false</italic>
+          <stylestrategy>PreferAntialias</stylestrategy>
+         </font>
+        </property>
        </widget>
       </item>
      </layout>
@@ -525,85 +719,25 @@ p, li { white-space: pre-wrap; }
       <rect>
        <x>10</x>
        <y>20</y>
-       <width>631</width>
-       <height>52</height>
+       <width>651</width>
+       <height>71</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <italic>false</italic>
+       <stylestrategy>PreferAntialias</stylestrategy>
+      </font>
+     </property>
      <layout class="QGridLayout" name="gridLayout_9">
-      <item row="0" column="0">
-       <layout class="QHBoxLayout" name="horizontalLayout_17">
-        <item>
-         <widget class="QLabel" name="label_16">
-          <property name="minimumSize">
-           <size>
-            <width>40</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>40</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="text">
-           <string>Pgca</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QDoubleSpinBox" name="Pgca_value">
-          <property name="minimumSize">
-           <size>
-            <width>100</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>100</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-          </property>
-          <property name="decimals">
-           <number>5</number>
-          </property>
-          <property name="maximum">
-           <double>100000.000000000000000</double>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="label_91">
-          <property name="minimumSize">
-           <size>
-            <width>40</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>40</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="text">
-           <string/>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
       <item row="0" column="1">
        <layout class="QHBoxLayout" name="horizontalLayout_15">
         <item>
          <widget class="QLabel" name="label_15">
           <property name="minimumSize">
            <size>
-            <width>40</width>
+            <width>50</width>
             <height>0</height>
            </size>
           </property>
@@ -613,8 +747,18 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>Pd</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -631,6 +775,13 @@ p, li { white-space: pre-wrap; }
             <width>100</width>
             <height>16777215</height>
            </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -657,142 +808,15 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>(天)</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-      <item row="0" column="2">
-       <layout class="QHBoxLayout" name="horizontalLayout_16">
-        <item>
-         <widget class="QLabel" name="label_19">
-          <property name="minimumSize">
-           <size>
-            <width>40</width>
-            <height>15</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>40</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="text">
-           <string>SA</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QDoubleSpinBox" name="SA_value">
-          <property name="minimumSize">
-           <size>
-            <width>100</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>100</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-          </property>
-          <property name="decimals">
-           <number>5</number>
-          </property>
-          <property name="maximum">
-           <double>100000.000000000000000</double>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="label_48">
-          <property name="minimumSize">
-           <size>
-            <width>40</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>40</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;(cm&lt;span style=&quot; vertical-align:super;&quot;&gt;2&lt;/span&gt;)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-      <item row="1" column="0">
-       <layout class="QHBoxLayout" name="horizontalLayout_18">
-        <item>
-         <widget class="QLabel" name="label_17">
-          <property name="minimumSize">
-           <size>
-            <width>40</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>40</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="text">
-           <string>Pgcb</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QDoubleSpinBox" name="Pgcb_value">
-          <property name="minimumSize">
-           <size>
-            <width>100</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>100</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-          </property>
-          <property name="decimals">
-           <number>5</number>
-          </property>
-          <property name="maximum">
-           <double>100000.000000000000000</double>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="label_92">
-          <property name="minimumSize">
-           <size>
-            <width>40</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>40</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="text">
-           <string/>
           </property>
          </widget>
         </item>
@@ -804,7 +828,7 @@ p, li { white-space: pre-wrap; }
          <widget class="QLabel" name="label_18">
           <property name="minimumSize">
            <size>
-            <width>40</width>
+            <width>50</width>
             <height>0</height>
            </size>
           </property>
@@ -814,8 +838,18 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>SC</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -832,6 +866,13 @@ p, li { white-space: pre-wrap; }
             <width>100</width>
             <height>16777215</height>
            </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -858,8 +899,288 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>(%)</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_18">
+        <item>
+         <widget class="QLabel" name="label_17">
+          <property name="minimumSize">
+           <size>
+            <width>50</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
+          <property name="text">
+           <string>Pgcb</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDoubleSpinBox" name="Pgcb_value">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="decimals">
+           <number>5</number>
+          </property>
+          <property name="maximum">
+           <double>100000.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_92">
+          <property name="minimumSize">
+           <size>
+            <width>40</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_17">
+        <item>
+         <widget class="QLabel" name="label_16">
+          <property name="minimumSize">
+           <size>
+            <width>50</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
+          <property name="text">
+           <string>Pgca</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDoubleSpinBox" name="Pgca_value">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="decimals">
+           <number>5</number>
+          </property>
+          <property name="maximum">
+           <double>100000.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_91">
+          <property name="minimumSize">
+           <size>
+            <width>40</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="2">
+       <layout class="QHBoxLayout" name="horizontalLayout_16">
+        <item>
+         <widget class="QLabel" name="label_19">
+          <property name="minimumSize">
+           <size>
+            <width>50</width>
+            <height>15</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
+          <property name="text">
+           <string>SA</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDoubleSpinBox" name="SA_value">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="decimals">
+           <number>5</number>
+          </property>
+          <property name="maximum">
+           <double>100000.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_48">
+          <property name="minimumSize">
+           <size>
+            <width>40</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;(cm&lt;span style=&quot; vertical-align:super;&quot;&gt;2&lt;/span&gt;)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
          </widget>
         </item>
@@ -872,10 +1193,17 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>330</y>
-      <width>1091</width>
+      <y>340</y>
+      <width>1141</width>
       <height>121</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <italic>false</italic>
+      <stylestrategy>PreferAntialias</stylestrategy>
+     </font>
     </property>
     <property name="title">
      <string>计算气象因子</string>
@@ -883,11 +1211,18 @@ p, li { white-space: pre-wrap; }
     <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
-       <x>650</x>
-       <y>20</y>
-       <width>410</width>
+       <x>670</x>
+       <y>50</y>
+       <width>459</width>
        <height>32</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <italic>false</italic>
+       <stylestrategy>PreferAntialias</stylestrategy>
+      </font>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout_29">
       <item>
@@ -898,6 +1233,13 @@ p, li { white-space: pre-wrap; }
           <height>0</height>
          </size>
         </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <italic>false</italic>
+          <stylestrategy>PreferAntialias</stylestrategy>
+         </font>
+        </property>
         <property name="text">
          <string>输入说明</string>
         </property>
@@ -905,6 +1247,13 @@ p, li { white-space: pre-wrap; }
       </item>
       <item>
        <widget class="QPushButton" name="WF_calculate">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <italic>false</italic>
+          <stylestrategy>PreferAntialias</stylestrategy>
+         </font>
+        </property>
         <property name="text">
          <string>计算</string>
         </property>
@@ -914,7 +1263,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="label_31">
         <property name="minimumSize">
          <size>
-          <width>40</width>
+          <width>50</width>
           <height>0</height>
          </size>
         </property>
@@ -924,8 +1273,18 @@ p, li { white-space: pre-wrap; }
           <height>16777215</height>
          </size>
         </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <italic>false</italic>
+          <stylestrategy>PreferAntialias</stylestrategy>
+         </font>
+        </property>
         <property name="text">
          <string>  WF</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
         </property>
        </widget>
       </item>
@@ -943,6 +1302,13 @@ p, li { white-space: pre-wrap; }
           <height>30</height>
          </size>
         </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <italic>false</italic>
+          <stylestrategy>PreferAntialias</stylestrategy>
+         </font>
+        </property>
        </widget>
       </item>
      </layout>
@@ -952,9 +1318,16 @@ p, li { white-space: pre-wrap; }
       <rect>
        <x>10</x>
        <y>20</y>
-       <width>631</width>
+       <width>651</width>
        <height>91</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <italic>false</italic>
+       <stylestrategy>PreferAntialias</stylestrategy>
+      </font>
      </property>
      <layout class="QGridLayout" name="gridLayout_4">
       <item row="0" column="0">
@@ -963,7 +1336,7 @@ p, li { white-space: pre-wrap; }
          <widget class="QLabel" name="label_23">
           <property name="minimumSize">
            <size>
-            <width>40</width>
+            <width>50</width>
             <height>0</height>
            </size>
           </property>
@@ -973,8 +1346,18 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>ρ</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -985,6 +1368,13 @@ p, li { white-space: pre-wrap; }
             <width>100</width>
             <height>16777215</height>
            </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -1011,6 +1401,13 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;(kg/m&lt;span style=&quot; vertical-align:super;&quot;&gt;3&lt;/span&gt;)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
@@ -1024,7 +1421,7 @@ p, li { white-space: pre-wrap; }
          <widget class="QLabel" name="label_27">
           <property name="minimumSize">
            <size>
-            <width>40</width>
+            <width>50</width>
             <height>0</height>
            </size>
           </property>
@@ -1034,8 +1431,18 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>ETp</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -1052,6 +1459,13 @@ p, li { white-space: pre-wrap; }
             <width>100</width>
             <height>16777215</height>
            </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -1078,6 +1492,13 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>(mm)</string>
           </property>
@@ -1091,7 +1512,7 @@ p, li { white-space: pre-wrap; }
          <widget class="QLabel" name="label_29">
           <property name="minimumSize">
            <size>
-            <width>40</width>
+            <width>50</width>
             <height>0</height>
            </size>
           </property>
@@ -1101,8 +1522,18 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>R+I</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -1113,6 +1544,13 @@ p, li { white-space: pre-wrap; }
             <width>100</width>
             <height>16777215</height>
            </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -1139,6 +1577,13 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>(mm)</string>
           </property>
@@ -1152,7 +1597,7 @@ p, li { white-space: pre-wrap; }
          <widget class="QLabel" name="label_30">
           <property name="minimumSize">
            <size>
-            <width>40</width>
+            <width>50</width>
             <height>0</height>
            </size>
           </property>
@@ -1162,8 +1607,18 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>Nd</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -1180,6 +1635,13 @@ p, li { white-space: pre-wrap; }
             <width>100</width>
             <height>16777215</height>
            </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -1206,6 +1668,13 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>(天)</string>
           </property>
@@ -1219,7 +1688,7 @@ p, li { white-space: pre-wrap; }
          <widget class="QLabel" name="label_24">
           <property name="minimumSize">
            <size>
-            <width>40</width>
+            <width>50</width>
             <height>0</height>
            </size>
           </property>
@@ -1229,8 +1698,18 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>g</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -1241,6 +1720,13 @@ p, li { white-space: pre-wrap; }
             <width>100</width>
             <height>16777215</height>
            </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -1267,6 +1753,13 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;(m/s&lt;span style=&quot; vertical-align:super;&quot;&gt;2&lt;/span&gt;)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
@@ -1280,7 +1773,7 @@ p, li { white-space: pre-wrap; }
          <widget class="QLabel" name="label_28">
           <property name="minimumSize">
            <size>
-            <width>40</width>
+            <width>50</width>
             <height>0</height>
            </size>
           </property>
@@ -1290,8 +1783,18 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>Rd</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -1302,6 +1805,13 @@ p, li { white-space: pre-wrap; }
             <width>100</width>
             <height>16777215</height>
            </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -1328,6 +1838,13 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string/>
           </property>
@@ -1341,7 +1858,7 @@ p, li { white-space: pre-wrap; }
          <widget class="QLabel" name="label_26">
           <property name="minimumSize">
            <size>
-            <width>40</width>
+            <width>50</width>
             <height>0</height>
            </size>
           </property>
@@ -1351,8 +1868,18 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>SD</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -1363,6 +1890,13 @@ p, li { white-space: pre-wrap; }
             <width>100</width>
             <height>16777215</height>
            </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -1389,6 +1923,13 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string/>
           </property>
@@ -1402,7 +1943,7 @@ p, li { white-space: pre-wrap; }
          <widget class="QLabel" name="label_22">
           <property name="minimumSize">
            <size>
-            <width>40</width>
+            <width>50</width>
             <height>0</height>
            </size>
           </property>
@@ -1412,8 +1953,18 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>Wf</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -1430,6 +1981,13 @@ p, li { white-space: pre-wrap; }
             <width>100</width>
             <height>16777215</height>
            </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -1456,31 +2014,19 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;(m/s)&lt;span style=&quot; vertical-align:super;&quot;&gt;3&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
          </widget>
         </item>
        </layout>
-      </item>
-      <item row="2" column="2">
-       <widget class="QPushButton" name="write_into_Wf">
-        <property name="minimumSize">
-         <size>
-          <width>100</width>
-          <height>0</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>100</width>
-          <height>16777215</height>
-         </size>
-        </property>
-        <property name="text">
-         <string>填入</string>
-        </property>
-       </widget>
       </item>
      </layout>
     </widget>
@@ -1490,7 +2036,7 @@ p, li { white-space: pre-wrap; }
      <rect>
       <x>10</x>
       <y>470</y>
-      <width>1091</width>
+      <width>1141</width>
       <height>101</height>
      </rect>
     </property>
@@ -1500,17 +2046,31 @@ p, li { white-space: pre-wrap; }
       <height>10000</height>
      </size>
     </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <italic>false</italic>
+      <stylestrategy>PreferAntialias</stylestrategy>
+     </font>
+    </property>
     <property name="title">
      <string>土壤保持量Q和土壤保有率Q`计算</string>
     </property>
     <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
-       <x>650</x>
-       <y>10</y>
-       <width>414</width>
-       <height>74</height>
+       <x>670</x>
+       <y>20</y>
+       <width>463</width>
+       <height>75</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <italic>false</italic>
+       <stylestrategy>PreferAntialias</stylestrategy>
+      </font>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout_36">
       <item>
@@ -1521,6 +2081,13 @@ p, li { white-space: pre-wrap; }
           <height>0</height>
          </size>
         </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <italic>false</italic>
+          <stylestrategy>PreferAntialias</stylestrategy>
+         </font>
+        </property>
         <property name="text">
          <string>输入说明</string>
         </property>
@@ -1528,6 +2095,13 @@ p, li { white-space: pre-wrap; }
       </item>
       <item>
        <widget class="QPushButton" name="Q_calculate">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <italic>false</italic>
+          <stylestrategy>PreferAntialias</stylestrategy>
+         </font>
+        </property>
         <property name="text">
          <string>计算</string>
         </property>
@@ -1541,7 +2115,7 @@ p, li { white-space: pre-wrap; }
            <widget class="QLabel" name="label_36">
             <property name="minimumSize">
              <size>
-              <width>40</width>
+              <width>50</width>
               <height>0</height>
              </size>
             </property>
@@ -1551,8 +2125,18 @@ p, li { white-space: pre-wrap; }
               <height>16777215</height>
              </size>
             </property>
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <italic>false</italic>
+              <stylestrategy>PreferAntialias</stylestrategy>
+             </font>
+            </property>
             <property name="text">
              <string>  Q</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
             </property>
            </widget>
           </item>
@@ -1570,6 +2154,13 @@ p, li { white-space: pre-wrap; }
               <height>30</height>
              </size>
             </property>
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <italic>false</italic>
+              <stylestrategy>PreferAntialias</stylestrategy>
+             </font>
+            </property>
            </widget>
           </item>
          </layout>
@@ -1580,7 +2171,7 @@ p, li { white-space: pre-wrap; }
            <widget class="QLabel" name="label_37">
             <property name="minimumSize">
              <size>
-              <width>40</width>
+              <width>50</width>
               <height>0</height>
              </size>
             </property>
@@ -1590,8 +2181,18 @@ p, li { white-space: pre-wrap; }
               <height>16777215</height>
              </size>
             </property>
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <italic>false</italic>
+              <stylestrategy>PreferAntialias</stylestrategy>
+             </font>
+            </property>
             <property name="text">
              <string>  Q`</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
             </property>
            </widget>
           </item>
@@ -1609,6 +2210,13 @@ p, li { white-space: pre-wrap; }
               <height>30</height>
              </size>
             </property>
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <italic>false</italic>
+              <stylestrategy>PreferAntialias</stylestrategy>
+             </font>
+            </property>
            </widget>
           </item>
          </layout>
@@ -1620,10 +2228,10 @@ p, li { white-space: pre-wrap; }
     <widget class="QPushButton" name="write_into_Qp">
      <property name="geometry">
       <rect>
-       <x>450</x>
-       <y>20</y>
+       <x>508</x>
+       <y>30</y>
        <width>100</width>
-       <height>23</height>
+       <height>25</height>
       </rect>
      </property>
      <property name="minimumSize">
@@ -1637,6 +2245,13 @@ p, li { white-space: pre-wrap; }
        <width>100</width>
        <height>16777215</height>
       </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <italic>false</italic>
+       <stylestrategy>PreferAntialias</stylestrategy>
+      </font>
      </property>
      <property name="text">
       <string>填入</string>
@@ -1645,10 +2260,10 @@ p, li { white-space: pre-wrap; }
     <widget class="QPushButton" name="write_into_Qx">
      <property name="geometry">
       <rect>
-       <x>450</x>
-       <y>50</y>
+       <x>508</x>
+       <y>60</y>
        <width>100</width>
-       <height>23</height>
+       <height>25</height>
       </rect>
      </property>
      <property name="minimumSize">
@@ -1662,6 +2277,13 @@ p, li { white-space: pre-wrap; }
        <width>100</width>
        <height>16777215</height>
       </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <italic>false</italic>
+       <stylestrategy>PreferAntialias</stylestrategy>
+      </font>
      </property>
      <property name="text">
       <string>填入</string>
@@ -1671,147 +2293,26 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>20</y>
-       <width>421</width>
-       <height>52</height>
+       <y>30</y>
+       <width>431</width>
+       <height>59</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <italic>false</italic>
+       <stylestrategy>PreferAntialias</stylestrategy>
+      </font>
+     </property>
      <layout class="QGridLayout" name="gridLayout_12">
-      <item row="0" column="0">
-       <layout class="QHBoxLayout" name="horizontalLayout_31">
-        <item>
-         <widget class="QLabel" name="label_33">
-          <property name="minimumSize">
-           <size>
-            <width>40</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>40</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="text">
-           <string>K`</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QDoubleSpinBox" name="K_value">
-          <property name="minimumSize">
-           <size>
-            <width>100</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>100</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-          </property>
-          <property name="decimals">
-           <number>5</number>
-          </property>
-          <property name="maximum">
-           <double>100000.000000000000000</double>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="label_90">
-          <property name="minimumSize">
-           <size>
-            <width>40</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>40</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="text">
-           <string/>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-      <item row="0" column="1">
-       <layout class="QHBoxLayout" name="horizontalLayout_32">
-        <item>
-         <widget class="QLabel" name="label_35">
-          <property name="minimumSize">
-           <size>
-            <width>40</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>40</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="text">
-           <string>Qp</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QDoubleSpinBox" name="Qp_value">
-          <property name="minimumSize">
-           <size>
-            <width>100</width>
-            <height>0</height>
-           </size>
-          </property>
-          <property name="maximumSize">
-           <size>
-            <width>100</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="alignment">
-           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-          </property>
-          <property name="decimals">
-           <number>5</number>
-          </property>
-          <property name="maximum">
-           <double>100000.000000000000000</double>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="label_56">
-          <property name="maximumSize">
-           <size>
-            <width>40</width>
-            <height>16777215</height>
-           </size>
-          </property>
-          <property name="text">
-           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;g*a/m&lt;span style=&quot; vertical-align:super;&quot;&gt;3&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
       <item row="1" column="0">
        <layout class="QHBoxLayout" name="horizontalLayout_30">
         <item>
          <widget class="QLabel" name="label_32">
           <property name="minimumSize">
            <size>
-            <width>40</width>
+            <width>50</width>
             <height>0</height>
            </size>
           </property>
@@ -1821,8 +2322,18 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>x</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -1839,6 +2350,13 @@ p, li { white-space: pre-wrap; }
             <width>100</width>
             <height>16777215</height>
            </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -1865,6 +2383,13 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>(m)</string>
           </property>
@@ -1872,10 +2397,156 @@ p, li { white-space: pre-wrap; }
         </item>
        </layout>
       </item>
-      <item row="1" column="1">
-       <layout class="QHBoxLayout" name="horizontalLayout_33">
+      <item row="0" column="1">
+       <layout class="QHBoxLayout" name="horizontalLayout_32">
         <item>
-         <widget class="QLabel" name="label_34">
+         <widget class="QLabel" name="label_35">
+          <property name="minimumSize">
+           <size>
+            <width>50</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
+          <property name="text">
+           <string>Qp</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDoubleSpinBox" name="Qp_value">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="decimals">
+           <number>5</number>
+          </property>
+          <property name="maximum">
+           <double>100000.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_56">
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
+          <property name="text">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;g*a/m&lt;span style=&quot; vertical-align:super;&quot;&gt;3&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_31">
+        <item>
+         <widget class="QLabel" name="label_33">
+          <property name="minimumSize">
+           <size>
+            <width>50</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
+          <property name="text">
+           <string>K`</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDoubleSpinBox" name="K_value">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+          <property name="decimals">
+           <number>5</number>
+          </property>
+          <property name="maximum">
+           <double>100000.000000000000000</double>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_90">
           <property name="minimumSize">
            <size>
             <width>40</width>
@@ -1888,8 +2559,48 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="1">
+       <layout class="QHBoxLayout" name="horizontalLayout_33">
+        <item>
+         <widget class="QLabel" name="label_34">
+          <property name="minimumSize">
+           <size>
+            <width>50</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>40</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>Qx</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -1906,6 +2617,13 @@ p, li { white-space: pre-wrap; }
             <width>100</width>
             <height>16777215</height>
            </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -1932,6 +2650,13 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;g*a/m&lt;span style=&quot; vertical-align:super;&quot;&gt;3&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
           </property>
@@ -1945,9 +2670,9 @@ p, li { white-space: pre-wrap; }
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>480</x>
-      <y>590</y>
-      <width>278</width>
+      <x>530</x>
+      <y>600</y>
+      <width>309</width>
       <height>52</height>
      </rect>
     </property>
@@ -1984,10 +2709,17 @@ p, li { white-space: pre-wrap; }
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>120</y>
-      <width>1091</width>
+      <y>130</y>
+      <width>1141</width>
       <height>101</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <italic>false</italic>
+      <stylestrategy>PreferAntialias</stylestrategy>
+     </font>
     </property>
     <property name="title">
      <string>土壤结皮因子SCF 与 土壤可蚀性成分EF</string>
@@ -1996,10 +2728,17 @@ p, li { white-space: pre-wrap; }
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>20</y>
-       <width>631</width>
-       <height>52</height>
+       <y>30</y>
+       <width>651</width>
+       <height>59</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <italic>false</italic>
+       <stylestrategy>PreferAntialias</stylestrategy>
+      </font>
      </property>
      <layout class="QGridLayout" name="gridLayout_10">
       <item row="0" column="0">
@@ -2008,7 +2747,7 @@ p, li { white-space: pre-wrap; }
          <widget class="QLabel" name="label_12">
           <property name="minimumSize">
            <size>
-            <width>40</width>
+            <width>50</width>
             <height>0</height>
            </size>
           </property>
@@ -2018,8 +2757,18 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;CaCO&lt;span style=&quot; vertical-align:sub;&quot;&gt;3&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -2036,6 +2785,13 @@ p, li { white-space: pre-wrap; }
             <width>100</width>
             <height>16777215</height>
            </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -2065,6 +2821,13 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>(%)</string>
           </property>
@@ -2078,7 +2841,7 @@ p, li { white-space: pre-wrap; }
          <widget class="QLabel" name="label_9">
           <property name="minimumSize">
            <size>
-            <width>40</width>
+            <width>50</width>
             <height>0</height>
            </size>
           </property>
@@ -2088,8 +2851,18 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>Sa</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -2106,6 +2879,13 @@ p, li { white-space: pre-wrap; }
             <width>100</width>
             <height>16777215</height>
            </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -2132,6 +2912,13 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>(%)</string>
           </property>
@@ -2145,7 +2932,7 @@ p, li { white-space: pre-wrap; }
          <widget class="QLabel" name="label_6">
           <property name="minimumSize">
            <size>
-            <width>40</width>
+            <width>50</width>
             <height>0</height>
            </size>
           </property>
@@ -2155,8 +2942,18 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>CI</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -2173,6 +2970,13 @@ p, li { white-space: pre-wrap; }
             <width>100</width>
             <height>16777215</height>
            </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -2199,6 +3003,13 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>(%)</string>
           </property>
@@ -2212,7 +3023,7 @@ p, li { white-space: pre-wrap; }
          <widget class="QLabel" name="label_11">
           <property name="minimumSize">
            <size>
-            <width>40</width>
+            <width>50</width>
             <height>0</height>
            </size>
           </property>
@@ -2222,8 +3033,18 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>Si</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -2240,6 +3061,13 @@ p, li { white-space: pre-wrap; }
             <width>100</width>
             <height>16777215</height>
            </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -2266,6 +3094,13 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>(%)</string>
           </property>
@@ -2279,7 +3114,7 @@ p, li { white-space: pre-wrap; }
          <widget class="QLabel" name="label_10">
           <property name="minimumSize">
            <size>
-            <width>40</width>
+            <width>50</width>
             <height>0</height>
            </size>
           </property>
@@ -2289,8 +3124,18 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>Sa/CI</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -2307,6 +3152,13 @@ p, li { white-space: pre-wrap; }
             <width>100</width>
             <height>16777215</height>
            </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -2333,6 +3185,13 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>(%)</string>
           </property>
@@ -2346,7 +3205,7 @@ p, li { white-space: pre-wrap; }
          <widget class="QLabel" name="label_7">
           <property name="minimumSize">
            <size>
-            <width>40</width>
+            <width>50</width>
             <height>0</height>
            </size>
           </property>
@@ -2356,8 +3215,18 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>OM</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
           </property>
          </widget>
         </item>
@@ -2374,6 +3243,13 @@ p, li { white-space: pre-wrap; }
             <width>100</width>
             <height>16777215</height>
            </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
           </property>
           <property name="alignment">
            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -2400,6 +3276,13 @@ p, li { white-space: pre-wrap; }
             <height>16777215</height>
            </size>
           </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <italic>false</italic>
+            <stylestrategy>PreferAntialias</stylestrategy>
+           </font>
+          </property>
           <property name="text">
            <string>(%)</string>
           </property>
@@ -2412,15 +3295,29 @@ p, li { white-space: pre-wrap; }
     <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
-       <x>650</x>
+       <x>670</x>
        <y>20</y>
-       <width>410</width>
+       <width>459</width>
        <height>32</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <italic>false</italic>
+       <stylestrategy>PreferAntialias</stylestrategy>
+      </font>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout_10">
       <item>
        <widget class="QPushButton" name="pushButton_3">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <italic>false</italic>
+          <stylestrategy>PreferAntialias</stylestrategy>
+         </font>
+        </property>
         <property name="text">
          <string>输入说明</string>
         </property>
@@ -2428,6 +3325,13 @@ p, li { white-space: pre-wrap; }
       </item>
       <item>
        <widget class="QPushButton" name="SCF_calculate">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <italic>false</italic>
+          <stylestrategy>PreferAntialias</stylestrategy>
+         </font>
+        </property>
         <property name="text">
          <string>计算</string>
         </property>
@@ -2437,7 +3341,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="label_8">
         <property name="minimumSize">
          <size>
-          <width>40</width>
+          <width>50</width>
           <height>0</height>
          </size>
         </property>
@@ -2447,8 +3351,18 @@ p, li { white-space: pre-wrap; }
           <height>16777215</height>
          </size>
         </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <italic>false</italic>
+          <stylestrategy>PreferAntialias</stylestrategy>
+         </font>
+        </property>
         <property name="text">
          <string>  SCF</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
         </property>
        </widget>
       </item>
@@ -2466,6 +3380,13 @@ p, li { white-space: pre-wrap; }
           <height>30</height>
          </size>
         </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <italic>false</italic>
+          <stylestrategy>PreferAntialias</stylestrategy>
+         </font>
+        </property>
        </widget>
       </item>
      </layout>
@@ -2473,15 +3394,29 @@ p, li { white-space: pre-wrap; }
     <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
-       <x>650</x>
+       <x>670</x>
        <y>60</y>
-       <width>410</width>
+       <width>459</width>
        <height>32</height>
       </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <italic>false</italic>
+       <stylestrategy>PreferAntialias</stylestrategy>
+      </font>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout_14">
       <item>
        <widget class="QPushButton" name="pushButton_4">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <italic>false</italic>
+          <stylestrategy>PreferAntialias</stylestrategy>
+         </font>
+        </property>
         <property name="text">
          <string>输入说明</string>
         </property>
@@ -2489,6 +3424,13 @@ p, li { white-space: pre-wrap; }
       </item>
       <item>
        <widget class="QPushButton" name="EF_calculate">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <italic>false</italic>
+          <stylestrategy>PreferAntialias</stylestrategy>
+         </font>
+        </property>
         <property name="text">
          <string>计算</string>
         </property>
@@ -2498,7 +3440,7 @@ p, li { white-space: pre-wrap; }
        <widget class="QLabel" name="label_13">
         <property name="minimumSize">
          <size>
-          <width>40</width>
+          <width>50</width>
           <height>0</height>
          </size>
         </property>
@@ -2508,8 +3450,18 @@ p, li { white-space: pre-wrap; }
           <height>16777215</height>
          </size>
         </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <italic>false</italic>
+          <stylestrategy>PreferAntialias</stylestrategy>
+         </font>
+        </property>
         <property name="text">
          <string>  EF</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
         </property>
        </widget>
       </item>
@@ -2527,10 +3479,49 @@ p, li { white-space: pre-wrap; }
           <height>30</height>
          </size>
         </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <italic>false</italic>
+          <stylestrategy>PreferAntialias</stylestrategy>
+         </font>
+        </property>
        </widget>
       </item>
      </layout>
     </widget>
+   </widget>
+   <widget class="QPushButton" name="write_into_Wf">
+    <property name="geometry">
+     <rect>
+      <x>518</x>
+      <y>422</y>
+      <width>100</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>100</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>100</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <italic>false</italic>
+      <stylestrategy>PreferAntialias</stylestrategy>
+     </font>
+    </property>
+    <property name="text">
+     <string>填入</string>
+    </property>
    </widget>
    <zorder>layoutWidget</zorder>
    <zorder>groupBox</zorder>
@@ -2539,6 +3530,7 @@ p, li { white-space: pre-wrap; }
    <zorder>groupBox_4</zorder>
    <zorder>groupBox_5</zorder>
    <zorder>groupBox_6</zorder>
+   <zorder>write_into_Wf</zorder>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
  </widget>
